@@ -1,0 +1,10 @@
+{
+  "name": "approuter",
+  "dependencies": {
+    "@sap/approuter": "^2.7.0"
+  },
+  "scripts": {
+    "start": "set port=8009&&node node_modules/@sap/approuter"
+
+  }
+}

@@ -1,0 +1,593 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('1')",
+				"type": "default.FeeType"
+			},
+			"UID": "1",
+			"REF_VEHICLE.UID": 10000010,
+			"PLATE_NUMBER": "上海方特化工车间1",
+			"CREATED_ON": "/Date(1588196630819)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588196630819)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1514764800000)/",
+			"FEE_END_DATE": "/Date(1527724800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('1')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('10')",
+				"type": "default.FeeType"
+			},
+			"UID": "10",
+			"REF_VEHICLE.UID": 10000030,
+			"PLATE_NUMBER": "上海永平运输有限公司",
+			"CREATED_ON": "/Date(1588197119527)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197119527)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1527811200000)/",
+			"FEE_END_DATE": "/Date(1546214400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('10')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('11')",
+				"type": "default.FeeType"
+			},
+			"UID": "11",
+			"REF_VEHICLE.UID": 10000030,
+			"PLATE_NUMBER": "上海永平运输有限公司",
+			"CREATED_ON": "/Date(1588197119539)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197119539)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1546300800000)/",
+			"FEE_END_DATE": "/Date(1559260800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('11')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('12')",
+				"type": "default.FeeType"
+			},
+			"UID": "12",
+			"REF_VEHICLE.UID": 10000030,
+			"PLATE_NUMBER": "上海永平运输有限公司",
+			"CREATED_ON": "/Date(1588197119550)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197119550)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1559347200000)/",
+			"FEE_END_DATE": "/Date(1577750400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('12')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('13')",
+				"type": "default.FeeType"
+			},
+			"UID": "13",
+			"REF_VEHICLE.UID": 10000040,
+			"PLATE_NUMBER": "上海众华水泥车间1",
+			"CREATED_ON": "/Date(1588197172973)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197172973)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1514764800000)/",
+			"FEE_END_DATE": "/Date(1527724800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('13')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('14')",
+				"type": "default.FeeType"
+			},
+			"UID": "14",
+			"REF_VEHICLE.UID": 10000040,
+			"PLATE_NUMBER": "上海众华水泥车间1",
+			"CREATED_ON": "/Date(1588197172986)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197172986)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1527811200000)/",
+			"FEE_END_DATE": "/Date(1546214400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('14')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('15')",
+				"type": "default.FeeType"
+			},
+			"UID": "15",
+			"REF_VEHICLE.UID": 10000040,
+			"PLATE_NUMBER": "上海众华水泥车间1",
+			"CREATED_ON": "/Date(1588197172999)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197172999)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1546300800000)/",
+			"FEE_END_DATE": "/Date(1559260800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('15')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('16')",
+				"type": "default.FeeType"
+			},
+			"UID": "16",
+			"REF_VEHICLE.UID": 10000040,
+			"PLATE_NUMBER": "上海众华水泥车间1",
+			"CREATED_ON": "/Date(1588197173012)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197173012)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1559347200000)/",
+			"FEE_END_DATE": "/Date(1577750400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('16')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('17')",
+				"type": "default.FeeType"
+			},
+			"UID": "17",
+			"REF_VEHICLE.UID": 10000050,
+			"PLATE_NUMBER": "江苏众华水泥车间2",
+			"CREATED_ON": "/Date(1588197211564)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197211564)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1514764800000)/",
+			"FEE_END_DATE": "/Date(1527724800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('17')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('18')",
+				"type": "default.FeeType"
+			},
+			"UID": "18",
+			"REF_VEHICLE.UID": 10000050,
+			"PLATE_NUMBER": "江苏众华水泥车间2",
+			"CREATED_ON": "/Date(1588197211575)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197211575)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1527811200000)/",
+			"FEE_END_DATE": "/Date(1546214400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('18')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('19')",
+				"type": "default.FeeType"
+			},
+			"UID": "19",
+			"REF_VEHICLE.UID": 10000050,
+			"PLATE_NUMBER": "江苏众华水泥车间2",
+			"CREATED_ON": "/Date(1588197211587)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197211587)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1546300800000)/",
+			"FEE_END_DATE": "/Date(1559260800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('19')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('2')",
+				"type": "default.FeeType"
+			},
+			"UID": "2",
+			"REF_VEHICLE.UID": 10000010,
+			"PLATE_NUMBER": "上海方特化工车间1",
+			"CREATED_ON": "/Date(1588196907852)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588196907852)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1527811200000)/",
+			"FEE_END_DATE": "/Date(1546214400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('2')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('20')",
+				"type": "default.FeeType"
+			},
+			"UID": "20",
+			"REF_VEHICLE.UID": 10000050,
+			"PLATE_NUMBER": "江苏众华水泥车间2",
+			"CREATED_ON": "/Date(1588197211599)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197211599)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1559347200000)/",
+			"FEE_END_DATE": "/Date(1577750400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('20')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('21')",
+				"type": "default.FeeType"
+			},
+			"UID": "21",
+			"REF_VEHICLE.UID": 10000060,
+			"PLATE_NUMBER": "江苏德信烟花车间1",
+			"CREATED_ON": "/Date(1588197253132)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197253132)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1514764800000)/",
+			"FEE_END_DATE": "/Date(1527724800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('21')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('22')",
+				"type": "default.FeeType"
+			},
+			"UID": "22",
+			"REF_VEHICLE.UID": 10000060,
+			"PLATE_NUMBER": "江苏德信烟花车间1",
+			"CREATED_ON": "/Date(1588197253145)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197253145)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1527811200000)/",
+			"FEE_END_DATE": "/Date(1546214400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('22')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('23')",
+				"type": "default.FeeType"
+			},
+			"UID": "23",
+			"REF_VEHICLE.UID": 10000060,
+			"PLATE_NUMBER": "江苏德信烟花车间1",
+			"CREATED_ON": "/Date(1588197253157)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197253157)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1546300800000)/",
+			"FEE_END_DATE": "/Date(1559260800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('23')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('24')",
+				"type": "default.FeeType"
+			},
+			"UID": "24",
+			"REF_VEHICLE.UID": 10000060,
+			"PLATE_NUMBER": "江苏德信烟花车间1",
+			"CREATED_ON": "/Date(1588197253167)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197253167)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1559347200000)/",
+			"FEE_END_DATE": "/Date(1577750400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('24')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('25')",
+				"type": "default.FeeType"
+			},
+			"UID": "25",
+			"REF_VEHICLE.UID": 10000070,
+			"PLATE_NUMBER": "江苏利平水产品养殖基地1",
+			"CREATED_ON": "/Date(1588197284200)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197284200)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1514764800000)/",
+			"FEE_END_DATE": "/Date(1527724800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('25')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('26')",
+				"type": "default.FeeType"
+			},
+			"UID": "26",
+			"REF_VEHICLE.UID": 10000070,
+			"PLATE_NUMBER": "江苏利平水产品养殖基地1",
+			"CREATED_ON": "/Date(1588197284215)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197284215)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1527811200000)/",
+			"FEE_END_DATE": "/Date(1546214400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('26')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('27')",
+				"type": "default.FeeType"
+			},
+			"UID": "27",
+			"REF_VEHICLE.UID": 10000070,
+			"PLATE_NUMBER": "江苏利平水产品养殖基地1",
+			"CREATED_ON": "/Date(1588197284227)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197284227)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1546300800000)/",
+			"FEE_END_DATE": "/Date(1559260800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('27')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('28')",
+				"type": "default.FeeType"
+			},
+			"UID": "28",
+			"REF_VEHICLE.UID": 10000070,
+			"PLATE_NUMBER": "江苏利平水产品养殖基地1",
+			"CREATED_ON": "/Date(1588197284238)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197284238)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1559347200000)/",
+			"FEE_END_DATE": "/Date(1577750400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('28')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('3')",
+				"type": "default.FeeType"
+			},
+			"UID": "3",
+			"REF_VEHICLE.UID": 10000010,
+			"PLATE_NUMBER": "上海方特化工车间1",
+			"CREATED_ON": "/Date(1588196941583)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588196941583)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1546300800000)/",
+			"FEE_END_DATE": "/Date(1559260800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('3')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('4')",
+				"type": "default.FeeType"
+			},
+			"UID": "4",
+			"REF_VEHICLE.UID": 10000010,
+			"PLATE_NUMBER": "上海方特化工车间1",
+			"CREATED_ON": "/Date(1588196972387)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588196972387)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1559347200000)/",
+			"FEE_END_DATE": "/Date(1577750400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('4')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('5')",
+				"type": "default.FeeType"
+			},
+			"UID": "5",
+			"REF_VEHICLE.UID": 10000020,
+			"PLATE_NUMBER": "上海方特化工车间2",
+			"CREATED_ON": "/Date(1588197076428)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197076428)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1514764800000)/",
+			"FEE_END_DATE": "/Date(1527724800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('5')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('6')",
+				"type": "default.FeeType"
+			},
+			"UID": "6",
+			"REF_VEHICLE.UID": 10000020,
+			"PLATE_NUMBER": "上海方特化工车间2",
+			"CREATED_ON": "/Date(1588197076443)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197076443)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1527811200000)/",
+			"FEE_END_DATE": "/Date(1546214400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('6')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('7')",
+				"type": "default.FeeType"
+			},
+			"UID": "7",
+			"REF_VEHICLE.UID": 10000020,
+			"PLATE_NUMBER": "上海方特化工车间2",
+			"CREATED_ON": "/Date(1588197076455)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197076455)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1546300800000)/",
+			"FEE_END_DATE": "/Date(1559260800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('7')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('8')",
+				"type": "default.FeeType"
+			},
+			"UID": "8",
+			"REF_VEHICLE.UID": 10000020,
+			"PLATE_NUMBER": "上海方特化工车间2",
+			"CREATED_ON": "/Date(1588197076466)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197076466)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1559347200000)/",
+			"FEE_END_DATE": "/Date(1577750400000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('8')/Vehicle"
+				}
+			}
+		}, {
+			"__metadata": {
+				"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('9')",
+				"type": "default.FeeType"
+			},
+			"UID": "9",
+			"REF_VEHICLE.UID": 10000030,
+			"PLATE_NUMBER": "上海永平运输有限公司",
+			"CREATED_ON": "/Date(1588197119512)/",
+			"CREATED_BY": "zhimin",
+			"CHANGED_ON": "/Date(1588197119512)/",
+			"CHANGED_BY": "zhimin",
+			"FEE_START_DATE": "/Date(1514764800000)/",
+			"FEE_END_DATE": "/Date(1527724800000)/",
+			"FEE": "300",
+			"CURRENCY_CODE": "CNY",
+			"Vehicle": {
+				"__deferred": {
+					"uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Fee('9')/Vehicle"
+				}
+			}
+		}]
+	}
+}

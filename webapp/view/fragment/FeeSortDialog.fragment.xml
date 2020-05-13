@@ -1,0 +1,10 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" >
+    <ViewSettingsDialog title="{i18n>FEE_SORT_DIALOG_TITLE}" sortDescending="true" confirm="handleFeeSortDialogConfirm">
+        <sortItems>
+            <ViewSettingsItem text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_START_DATE}" key="FEE_START_DATE" selected="true" />
+            <ViewSettingsItem text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_END_DATE}" key="FEE_END_DATE" />
+            <ViewSettingsItem text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_UPDATED_ON}" key="CHANGED_ON" />
+            <ViewSettingsItem text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_CREATED_ON}" key="CREATED_ON" />
+        </sortItems>
+    </ViewSettingsDialog>
+</core:FragmentDefinition>

@@ -1,0 +1,37 @@
+<mvc:View controllerName="com.shunyu.lqp.fiori-test-fee.controller.FeeList2" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:smartFilterBar="sap.ui.comp.smartfilterbar" xmlns:smartTable="sap.ui.comp.smarttable" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" displayBlock="true">
+    <Page id="page" title="{i18n>FEE_LIST_TITLE}">
+        <content>
+            <VBox fitContainer="true">
+                <smartFilterBar:SmartFilterBar id="smartFilterBar" entitySet="Fee" persistencyKey="SmartFilter_Explored" showMessages="true"
+                fieldGroupIds="UID,CREATED_BY">
+                    <smartFilterBar:controlConfiguration>
+                        <smartFilterBar:ControlConfiguration key="UID" >
+                            <smartFilterBar:defaultFilterValues>
+                                <smartFilterBar:SelectOption low="1"></smartFilterBar:SelectOption>
+                            </smartFilterBar:defaultFilterValues>
+                        </smartFilterBar:ControlConfiguration>
+                    </smartFilterBar:controlConfiguration>
+
+                    <smartFilterBar:controlConfiguration>
+                        <smartFilterBar:ControlConfiguration key="CREATED_BY">
+                            <smartFilterBar:defaultFilterValues>
+                                <smartFilterBar:SelectOption low="zhimin"></smartFilterBar:SelectOption>
+                            </smartFilterBar:defaultFilterValues>
+                        </smartFilterBar:ControlConfiguration>
+                    </smartFilterBar:controlConfiguration>
+                    <!-- layout data used to make the table growing but the filter bar fixed -->
+                    <smartFilterBar:layoutData>
+                        <FlexItemData shrinkFactor="0" />
+                    </smartFilterBar:layoutData>
+                </smartFilterBar:SmartFilterBar>
+                <smartTable:SmartTable id="FeeSmartTable" entitySet="Fee" smartFilterId="smartFilterBar" tableType="Table" useExportToExcel="true" beforeExport="onBeforeExport" useVariantManagement="true" useTablePersonalisation="true" header="service fee" showRowCount="true" persistencyKey="SmartTableAnalytical_Explored" enableAutoBinding="true" class="sapUiResponsiveContentPadding" 
+                initiallyVisibleFields="UID,PLATE_NUMBER,CREATED_ON,CREATED_BY,CHANGED_ON,CHANGED_BY,FEE_START_DATE,FEE_END_DATE,FEE,CURRENCY_CODE">
+                    <!-- layout data used to make the table growing but the filter bar fixed -->
+                    <smartTable:layoutData>
+                        <FlexItemData growFactor="1" baseSize="0%" />
+                    </smartTable:layoutData>
+                </smartTable:SmartTable>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

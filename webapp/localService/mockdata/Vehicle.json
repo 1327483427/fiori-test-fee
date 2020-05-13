@@ -1,0 +1,195 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000010)",
+                    "type": "default.VehicleType"
+                },
+                "UID": 10000010,
+                "VIN": "123456789",
+                "ENGINE_NO": null,
+                "PLATE_NUMBER": "上海方特化工车间1",
+                "DOC_NUMBER": null,
+                "CARD_ID": null,
+                "MODEL": "方特化工车间1",
+                "MAKER": "本田",
+                "LICENSE_VALID_FROM": null,
+                "LICENSE_VALID_TO": null,
+                "OP_CERT_NUMBER": null,
+                "OP_CERT_VALID_FROM": null,
+                "OP_CERT_VALID_TO": null,
+                "PURCHASE_DATE": "/Date(1533772800000)/",
+                "DELETE_FLAG": "0",
+                "EFENCE_FLAG": "0",
+                "Fee": {
+                    "__deferred": {
+                        "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000010)/Fee"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000020)",
+                    "type": "default.VehicleType"
+                },
+                "UID": 10000020,
+                "VIN": "123456789",
+                "ENGINE_NO": null,
+                "PLATE_NUMBER": "上海方特化工车间2",
+                "DOC_NUMBER": null,
+                "CARD_ID": null,
+                "MODEL": "方特化工车间2",
+                "MAKER": "本田",
+                "LICENSE_VALID_FROM": null,
+                "LICENSE_VALID_TO": null,
+                "OP_CERT_NUMBER": null,
+                "OP_CERT_VALID_FROM": null,
+                "OP_CERT_VALID_TO": null,
+                "PURCHASE_DATE": "/Date(1533772800000)/",
+                "DELETE_FLAG": "0",
+                "EFENCE_FLAG": "0",
+                "Fee": {
+                    "__deferred": {
+                        "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000020)/Fee"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000030)",
+                    "type": "default.VehicleType"
+                },
+                "UID": 10000030,
+                "VIN": "123456333",
+                "ENGINE_NO": null,
+                "PLATE_NUMBER": "上海永平运输有限公司",
+                "DOC_NUMBER": null,
+                "CARD_ID": null,
+                "MODEL": "永平运输有限公司",
+                "MAKER": "丰田",
+                "LICENSE_VALID_FROM": null,
+                "LICENSE_VALID_TO": null,
+                "OP_CERT_NUMBER": null,
+                "OP_CERT_VALID_FROM": null,
+                "OP_CERT_VALID_TO": null,
+                "PURCHASE_DATE": "/Date(1533772800000)/",
+                "DELETE_FLAG": "0",
+                "EFENCE_FLAG": "0",
+                "Fee": {
+                    "__deferred": {
+                        "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000030)/Fee"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000040)",
+                    "type": "default.VehicleType"
+                },
+                "UID": 10000040,
+                "VIN": "122456342",
+                "ENGINE_NO": null,
+                "PLATE_NUMBER": "上海众华水泥车间1",
+                "DOC_NUMBER": null,
+                "CARD_ID": null,
+                "MODEL": "众华水泥车间1",
+                "MAKER": "福田",
+                "LICENSE_VALID_FROM": null,
+                "LICENSE_VALID_TO": null,
+                "OP_CERT_NUMBER": null,
+                "OP_CERT_VALID_FROM": null,
+                "OP_CERT_VALID_TO": null,
+                "PURCHASE_DATE": "/Date(1470700800000)/",
+                "DELETE_FLAG": "0",
+                "EFENCE_FLAG": "0",
+                "Fee": {
+                    "__deferred": {
+                        "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000040)/Fee"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000050)",
+                    "type": "default.VehicleType"
+                },
+                "UID": 10000050,
+                "VIN": "337892376",
+                "ENGINE_NO": null,
+                "PLATE_NUMBER": "江苏众华水泥车间2",
+                "DOC_NUMBER": null,
+                "CARD_ID": null,
+                "MODEL": "众华水泥车间2",
+                "MAKER": "三菱",
+                "LICENSE_VALID_FROM": null,
+                "LICENSE_VALID_TO": null,
+                "OP_CERT_NUMBER": null,
+                "OP_CERT_VALID_FROM": null,
+                "OP_CERT_VALID_TO": null,
+                "PURCHASE_DATE": "/Date(1376006400000)/",
+                "DELETE_FLAG": "0",
+                "EFENCE_FLAG": "0",
+                "Fee": {
+                    "__deferred": {
+                        "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000050)/Fee"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000060)",
+                    "type": "default.VehicleType"
+                },
+                "UID": 10000060,
+                "VIN": "456876543",
+                "ENGINE_NO": null,
+                "PLATE_NUMBER": "江苏德信烟花车间1",
+                "DOC_NUMBER": null,
+                "CARD_ID": null,
+                "MODEL": "德信烟花车间1",
+                "MAKER": "东风",
+                "LICENSE_VALID_FROM": null,
+                "LICENSE_VALID_TO": null,
+                "OP_CERT_NUMBER": null,
+                "OP_CERT_VALID_FROM": null,
+                "OP_CERT_VALID_TO": null,
+                "PURCHASE_DATE": "/Date(1344470400000)/",
+                "DELETE_FLAG": "0",
+                "EFENCE_FLAG": "0",
+                "Fee": {
+                    "__deferred": {
+                        "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000060)/Fee"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000070)",
+                    "type": "default.VehicleType"
+                },
+                "UID": 10000070,
+                "VIN": "129307233",
+                "ENGINE_NO": null,
+                "PLATE_NUMBER": "江苏利平水产品养殖基地1",
+                "DOC_NUMBER": null,
+                "CARD_ID": null,
+                "MODEL": "利平水产品养殖基地1",
+                "MAKER": "一汽",
+                "LICENSE_VALID_FROM": null,
+                "LICENSE_VALID_TO": null,
+                "OP_CERT_NUMBER": null,
+                "OP_CERT_VALID_FROM": null,
+                "OP_CERT_VALID_TO": null,
+                "PURCHASE_DATE": "/Date(1565308800000)/",
+                "DELETE_FLAG": "0",
+                "EFENCE_FLAG": "0",
+                "Fee": {
+                    "__deferred": {
+                        "uri": "https://35d99719trial-dev-zhimin-service.cfapps.eu10.hana.ondemand.com/xsodata/MasterDataManagement.xsodata/Vehicle(10000070)/Fee"
+                    }
+                }
+            }
+        ]
+    }
+}

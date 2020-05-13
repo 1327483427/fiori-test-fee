@@ -1,0 +1,27 @@
+{
+    "routes": [
+        {
+            "source": "^/resources/(.*)$",
+            "target": "$1",
+            "localDir":"../../sapui5sdk/resources",
+            "authenticationType": "none"
+        },
+        {
+            "source": "^/test-resources/(.*)$",
+            "target": "$1",
+            "localDir":"../../sapui5sdk/test-resources",
+            "authenticationType": "none"
+        },
+        {
+            "source": "^/xsodata/(.*)",
+            "destination": "service-backend",
+            "authenticationType": "none"
+        },
+        {
+            "source": "^/(.*)$",
+            "target": "$1",
+            "localDir": ".",
+            "authenticationType": "none"
+        }
+    ]
+}

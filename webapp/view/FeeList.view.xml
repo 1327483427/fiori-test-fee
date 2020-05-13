@@ -1,0 +1,121 @@
+<mvc:View controllerName="com.shunyu.lqp.fiori-test-fee.controller.FeeList" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:variants="sap.ui.comp.variants" xmlns:filterbar="sap.ui.comp.filterbar" xmlns:html="http://www.w3.org/1999/xhtml" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="{i18n>FEE_LIST_TITLE}"  titleAlignment="Center">
+        <content>
+            <layout:VerticalLayout class="sapUiCompFilterBar" width="100%">
+                <filterbar:FilterBar reset="onReset" clear="onClear" search="onSearch" useToolbar="false" showRestoreButton="false" showClearButton="true" showGoOnFB="true">
+                    <filterbar:filterGroupItems>
+                        <filterbar:FilterGroupItem groupName="PLATE_NUMBER" name="PLATE_NUMBER" label="{i18n>FEE_FILTER_VEHICLE_PLATE_NUMBER}" partOfCurrentVariant="true" visibleInFilterBar="true">
+                            <filterbar:control>
+                                <MultiComboBox selectedKeys="{searchModel>/plateNumberKeys}" items="{
+                                    path: 'DrivingSafety>/Vehicle',
+                                 sorter: { path: 'PLATE_NUMBER' }
+                                    }">
+                                    <core:Item key="{DrivingSafety>PLATE_NUMBER}" text="{DrivingSafety>PLATE_NUMBER}" />
+                                </MultiComboBox>
+                            </filterbar:control>
+                        </filterbar:FilterGroupItem>
+
+                        <filterbar:FilterGroupItem groupName="FEE_START_DATE_RANGE" name="FEE_START_DATE_RANGE" label="{i18n>FEE_FILTER_FEE_START_DATE_RANGE}" visibleInFilterBar="true">
+                            <filterbar:control>
+                                <DateRangeSelection change="onChangeDateRange" value="{
+											parts: [{path: 'searchModel>/feeStartDateFrom'}, {path: 'searchModel>/feeStartDateTo'}], 
+											type: 'sap.ui.model.type.DateInterval',
+											formatOptions: { UTC: true,  pattern: 'yyyy-MM-dd', strictParsing: true }
+										}" displayFormat="yyyy-MM-dd" />
+                            </filterbar:control>
+                        </filterbar:FilterGroupItem>
+
+                        <filterbar:FilterGroupItem groupName="FEE_END_DATE_RANGE" name="FEE_END_DATE_RANGE" label="{i18n>FEE_FILTER_FEE_END_DATE_RANGE}" visibleInFilterBar="true">
+                            <filterbar:control>
+                                <DateRangeSelection change="onChangeDateRange" value="{
+											parts: [{path: 'searchModel>/feeEndDateFrom'}, {path: 'searchModel>/feeEndDateTo'}], 
+											type: 'sap.ui.model.type.DateInterval',
+											formatOptions: { UTC: true,  pattern: 'yyyy-MM-dd', strictParsing: true }
+										}" displayFormat="yyyy-MM-dd" />
+                            </filterbar:control>
+                        </filterbar:FilterGroupItem>
+
+
+                        <filterbar:FilterGroupItem groupName="CHANGED_ON_RANGE" name="CHANGED_ON_RANGE" label="{i18n>FEE_FILTER_CHANGE_ON_RANGE}" visibleInFilterBar="true">
+                            <filterbar:control>
+                                <DateRangeSelection change="onChangeDateRange" value="{
+											parts: [{path: 'searchModel>/changedOnFrom'}, {path: 'searchModel>/changedOnTo'}], 
+											type: 'sap.ui.model.type.DateInterval',
+											formatOptions: { UTC: true,  pattern: 'yyyy-MM-dd', strictParsing: true }
+										}" displayFormat="yyyy-MM-dd" />
+                            </filterbar:control>
+                        </filterbar:FilterGroupItem>
+
+                        <filterbar:FilterGroupItem groupName="CREATED_BY" name="CREATED_BY" label="{i18n>FEE_FILTER_VEHICLE_CREATED_BY}" partOfCurrentVariant="true" visibleInFilterBar="true">
+                            <filterbar:control>
+                                <MultiComboBox selectedKeys="{searchModel>/CreatedByKeys}" items="{
+                                    path: 'DrivingSafety>/Fee',
+                                    sorter: { path: 'CREATED_BY' }
+                                    }">
+                                    <core:Item key="{DrivingSafety>CREATED_BY}" text="{DrivingSafety>CREATED_BY}" />
+                                </MultiComboBox>
+                            </filterbar:control>
+                        </filterbar:FilterGroupItem>
+
+
+                    </filterbar:filterGroupItems>
+                </filterbar:FilterBar>
+            </layout:VerticalLayout>
+            <Table id="FeeTable" inset="false" items="{
+                path: 'DrivingSafety>/Fee'
+            }" busy="{path:'detailView>/vehicle/feeTableBusy'}" growing="true" enableBusyIndicator="true">
+                <headerToolbar>
+                    <OverflowToolbar>
+                        <Title text="{i18n>ENTITY_VEHICLE_FEE}" level="H2" />
+                        <ToolbarSpacer />
+                        <Button icon="sap-icon://sort" press="onFeeSortButtonPressed">
+                            <layoutData>
+                                <OverflowToolbarLayoutData priority="Neverflow" />
+                            </layoutData>
+                        </Button>
+                    </OverflowToolbar>
+                </headerToolbar>
+                <columns>
+                    <Column width="6em">
+                        <Text text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_PLATE_NUMBER}" />
+                    </Column>
+                    <Column width="6em">
+                        <Text text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_START_DATE}" />
+                    </Column>
+                    <Column width="6em">
+                        <Text text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_END_DATE}" />
+                    </Column>
+                    <Column width="12em" hAlign="Center">
+                        <Text text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_FEE}" />
+                    </Column>
+                    <Column width="10em" minScreenWidth="Desktop" demandPopin="true">
+                        <Text text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_UPDATED_ON}" />
+                    </Column>
+                    <Column width="8em" minScreenWidth="Desktop" demandPopin="true">
+                        <Text text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_UPDATED_BY}" />
+                    </Column>
+                    <Column width="10em" minScreenWidth="Desktop" demandPopin="true">
+                        <Text text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_CREATED_ON}" />
+                    </Column>
+                    <Column width="8em" minScreenWidth="Desktop" demandPopin="true">
+                        <Text text="{i18n>ENTITY_VEHICLE_FEE_COLUMN_CREATED_BY}" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem>
+                        <cells>
+                            <Link text="{path:'DrivingSafety>PLATE_NUMBER',type:'sap.ui.model.type.String'}"  press=".onNumberPress"/>
+                            <ObjectAttribute text="{path:'DrivingSafety>FEE_START_DATE',type:'sap.ui.model.type.Date', formatOptions: {UTC:true, pattern: 'yyyy-MM-dd', strictParsing: true}}" />
+                            <ObjectAttribute text="{path:'DrivingSafety>FEE_END_DATE',type:'sap.ui.model.type.Date', formatOptions: {UTC:true, pattern: 'yyyy-MM-dd', strictParsing: true}}" />
+                            <ObjectAttribute text="{ parts: [{path: 'DrivingSafety>FEE'}, {path: 'DrivingSafety>CURRENCY_CODE'}], type: 'sap.ui.model.type.Currency', formatOptions: {showMeasure: true } }" />
+                            <ObjectAttribute text="{path:'DrivingSafety>CHANGED_ON', type:'sap.ui.model.type.DateTime', formatOptions: {UTC:true, pattern: 'yyyy-MM-dd HH:mm:ss', strictParsing: true}}" />
+                            <ObjectAttribute text="{path:'DrivingSafety>CHANGED_BY'}" />
+                            <ObjectAttribute text="{path:'DrivingSafety>CREATED_ON', type:'sap.ui.model.type.DateTime', formatOptions: {UTC:true, pattern: 'yyyy-MM-dd HH:mm:ss', strictParsing: true}}" />
+                            <ObjectAttribute text="{path:'DrivingSafety>CREATED_BY'}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>

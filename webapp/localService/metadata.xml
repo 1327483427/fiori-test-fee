@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:DataServices m:DataServiceVersion="2.0" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+        <Schema Namespace="default" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+            <EntityType Name="VehicleType">
+                <Key>
+                    <PropertyRef Name="UID" />
+                </Key>
+                <Property Name="UID" Type="Edm.Int32" Nullable="false" />
+                <Property Name="VIN" Type="Edm.String" MaxLength="20" />
+                <Property Name="ENGINE_NO" Type="Edm.String" MaxLength="18" />
+                <Property Name="PLATE_NUMBER" Type="Edm.String" MaxLength="20" />
+                <Property Name="DOC_NUMBER" Type="Edm.String" MaxLength="18" />
+                <Property Name="CARD_ID" Type="Edm.String" MaxLength="18" />
+                <Property Name="MODEL" Type="Edm.String" MaxLength="100" />
+                <Property Name="MAKER" Type="Edm.String" MaxLength="100" />
+                <Property Name="LICENSE_VALID_FROM" Type="Edm.DateTime" />
+                <Property Name="LICENSE_VALID_TO" Type="Edm.DateTime" />
+                <Property Name="OP_CERT_NUMBER" Type="Edm.String" MaxLength="20" />
+                <Property Name="OP_CERT_VALID_FROM" Type="Edm.DateTime" />
+                <Property Name="OP_CERT_VALID_TO" Type="Edm.DateTime" />
+                <Property Name="PURCHASE_DATE" Type="Edm.DateTime" />
+                <Property Name="DELETE_FLAG" Type="Edm.String" MaxLength="1" />
+                <Property Name="EFENCE_FLAG" Type="Edm.String" MaxLength="1" />
+                <NavigationProperty Name="Fee" Relationship="default.VEHICLE_REF_FEEType" FromRole="VehiclePrincipal" ToRole="FeeDependent" />
+            </EntityType>
+            <EntityType Name="FeeType">
+                <Key>
+                    <PropertyRef Name="UID" />
+                </Key>
+                <Property Name="UID" Type="Edm.String" Nullable="false" MaxLength="32" sap:required-in-filter="true" />
+                <Property Name="REF_VEHICLE.UID" Type="Edm.Int32" />
+                <Property Name="PLATE_NUMBER" Type="Edm.String" MaxLength="20" />
+                <Property Name="CREATED_ON" Type="Edm.DateTime" />
+                <Property Name="CREATED_BY" Type="Edm.String" MaxLength="50" sap:required-in-filter="true" />
+                <Property Name="CHANGED_ON" Type="Edm.DateTime"/>
+                <Property Name="CHANGED_BY" Type="Edm.String" MaxLength="50" />
+                <Property Name="FEE_START_DATE" Type="Edm.DateTime" />
+                <Property Name="FEE_END_DATE" Type="Edm.DateTime" />
+                <Property Name="FEE" Type="Edm.Double" />
+                <Property Name="CURRENCY_CODE" Type="Edm.String" MaxLength="3" />
+                <NavigationProperty Name="Vehicle" Relationship="default.FEE_REF_VEHICLEType" FromRole="FeePrincipal" ToRole="VehicleDependent" />
+            </EntityType>
+            <Association Name="VEHICLE_REF_FEEType">
+                <End Type="default.VehicleType" Role="VehiclePrincipal" Multiplicity="1" />
+                <End Type="default.FeeType" Role="FeeDependent" Multiplicity="*" />
+            </Association>
+            <Association Name="FEE_REF_VEHICLEType">
+                <End Type="default.FeeType" Role="FeePrincipal" Multiplicity="1" />
+                <End Type="default.VehicleType" Role="VehicleDependent" Multiplicity="1" />
+            </Association>
+            <EntityContainer Name="v2" m:IsDefaultEntityContainer="true">
+                <EntitySet Name="Vehicle" EntityType="default.VehicleType" />
+                <EntitySet Name="Fee" EntityType="default.FeeType" />
+                <AssociationSet Name="VEHICLE_REF_FEE" Association="default.VEHICLE_REF_FEEType">
+                    <End Role="VehiclePrincipal" EntitySet="Vehicle" />
+                    <End Role="FeeDependent" EntitySet="Fee" />
+                </AssociationSet>
+                <AssociationSet Name="FEE_REF_VEHICLE" Association="default.FEE_REF_VEHICLEType">
+                    <End Role="FeePrincipal" EntitySet="Fee" />
+                    <End Role="VehicleDependent" EntitySet="Vehicle" />
+                </AssociationSet>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
